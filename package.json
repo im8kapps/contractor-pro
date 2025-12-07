@@ -1,20 +1,24 @@
 {
   "name": "contractor-pro",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/ui": "~0.2.0-beta.9",
+    "@expo/vector-icons": "^15.0.3",
     "@react-native-async-storage/async-storage": "2.2.0",
     "@react-navigation/bottom-tabs": "^7.8.11",
     "@react-navigation/native": "^7.1.24",
     "expo": "~54.0.27",
     "expo-camera": "~17.0.10",
     "expo-image-picker": "~17.0.9",
+    "expo-linking": "~8.0.10",
+    "expo-router": "~6.0.17",
     "expo-status-bar": "~3.0.9",
     "react": "19.1.0",
     "react-native": "0.81.5",
@@ -23,6 +27,7 @@
   },
   "devDependencies": {
     "@types/react": "~19.1.0",
+    "expo-mcp": "~0.2.1",
     "typescript": "~5.9.2"
   },
   "private": true
